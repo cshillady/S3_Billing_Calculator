@@ -1,4 +1,4 @@
-# S3 Billing Calculator
+# S3 Billing Calculator (Assignment Description)
 
 ### History
 In 2006 Amazon released a product called S3. S3 stands for Simple Storage Solution and it is a cloud based flat object store, and it is not hierarchical. S3 contains buckets in which users can upload an "infinite" amount of files to the cloud. Users are charged based on the size of the file and how many times they upload or download files from their S3 buckets. In 2008 the price to store 1 GB (GigaByte) of data was roughly 10 cents per GB. Now it's as low as 1 cent per GB.
@@ -22,7 +22,7 @@ The constructor for the S3BillingCalculator takes three arguments:
 The S3BillingCalculator must implement the following interface:
 
 ```java
-public interface S3Calculatable {
+public interface S3Calculable {
 
     void addStorageGB(int userId, int amount);
 
